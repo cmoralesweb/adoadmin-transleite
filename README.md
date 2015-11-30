@@ -1,2 +1,2 @@
-# adoadmin-transleite
+# adoadomin-transleite
 Manage translation files
