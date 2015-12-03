@@ -20,7 +20,8 @@
     "require-dev": {
         "orchestra/testbench": "~3.1",
         "phpunit/phpunit": "~4.0",
-        "whatthejeff/nyancat-phpunit-resultprinter": "~1.2"
+        "whatthejeff/nyancat-phpunit-resultprinter": "~1.2",
+        "mockery/mockery": "^0.9.4"
     },
     "repositories": [
       {
@@ -31,10 +32,7 @@
     "autoload": {
         "psr-4": {
             "ANavallaSuiza\\Transleite\\": "src/"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": {
